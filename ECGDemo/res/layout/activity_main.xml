@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:elg="http://schemas.android.com/apk/res/com.mao.ECG"
+    
+     >
+    <com.mao.ECG.ECGView 
+         android:layout_width="match_parent"
+    	android:layout_height="400dp"
+        android:id="@+id/electrocardiogram"
+        android:background="#000000"
+        elg:BackLineColor="#CD0000"
+        elg:TitleColor="#8800ff00"
+        elg:TitleSize="15sp"
+        elg:PointerLineColor="#00ff00"
+        />
+</LinearLayout>
+
